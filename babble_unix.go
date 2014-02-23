@@ -1,4 +1,4 @@
-package main
+package babble
 
 import (
 	"io/ioutil"
@@ -6,15 +6,15 @@ import (
 	"strings"
 )
 
-func readAvailableDictionary() (words []string, err error) {
+func readAvailableDictionary() (words []string) {
 	file, err := os.Open("/usr/share/dict/words")
 	if err != nil {
-		return
+		panic(err)
 	}
 
 	bytes, err := ioutil.ReadAll(file)
 	if err != nil {
-		return
+		panic(err)
 	}
 
 	words = strings.Split(string(bytes), "\n")

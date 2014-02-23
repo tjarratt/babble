@@ -1,9 +1,9 @@
-package main
+package babble
 
 var bundledDictionary []string
 
-func readAvailableDictionary() ([]string, error) {
-	return bundledDictionary, nil
+func readAvailableDictionary() ([]string) {
+	return bundledDictionary
 }
 
 func init() {
