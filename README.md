@@ -14,7 +14,6 @@ package your_app
 import (
   "github.com/tjarratt/babble"
 )
-```
 
 func main() {
   babbler := NewBabbler()
@@ -30,3 +29,4 @@ func main() {
 
   return
 })
+```
