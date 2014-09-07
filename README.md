@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-  babbler := NewBabbler()
+  babbler := babble.NewBabbler()
   println(babbler.Babble()) // excessive-yak-shaving (or some other phrase)
 
   // optionally set your own separator
