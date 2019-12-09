@@ -1,4 +1,4 @@
-Babble
+Babble [![Build Status](https://secure.travis-ci.org/tjarratt/babble.png?branch=master)](http://travis-ci.org/tjarratt/babble)
 =========
 
 Babble is a small utility that generates random words for you. I found this useful because occasionally you need a random word for testing.
