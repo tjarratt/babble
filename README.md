@@ -7,7 +7,7 @@ Babble is a small utility that generates random words for you. I found this usef
 
 Dependencies
 ------------
-On Unix/Linx this library makes uses the contents of `/usr/share/dict/words`. If this file is not present (e.g. in a Docker container) it can be populated by using the OS's package manager to install `wbritish` or `wamerican` 
+On Unix/Linux this library makes uses the contents of `/usr/share/dict/words`. If this file is not present (e.g. in a Docker container) it can be populated by using the OS's package manager to install `wbritish` or `wamerican` 
 
 Usage
 -----
