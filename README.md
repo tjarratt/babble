@@ -5,6 +5,10 @@ Babble is a small utility that generates random words for you. I found this usef
 
 ![tower of babel](http://image.shutterstock.com/display_pic_with_logo/518173/140700250/stock-photo-tower-of-babel-first-variant-raster-variant-140700250.jpg)
 
+Dependencies
+------------
+On Unix/Linux this library makes uses the contents of `/usr/share/dict/words`. If this file is not present (e.g. in a Docker container) it can be populated by using the OS's package manager to install `wbritish` or `wamerican` 
+
 Usage
 -----
 
