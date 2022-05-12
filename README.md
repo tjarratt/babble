@@ -32,5 +32,5 @@ func main() {
   println(babbler.Babble()) // antibiomicrobrial (or some other word)
 
   return
-})
+}
 ```
