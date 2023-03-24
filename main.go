@@ -11,13 +11,11 @@ var (
 	numberOfWords int
 )
 
-func init() {
-	flag.IntVar(&numberOfWords, "n", 3, "the number of random words to join")
-	flag.StringVar(&separator, "s", "-", "a separator to use when joining words")
-}
-
 // TODO: break the random word functionality into windows && unix helpers
 func main() {
+	flag.IntVar(&numberOfWords, "n", 3, "the number of random words to join")
+	flag.StringVar(&separator, "s", "-", "a separator to use when joining words")
+
 	if len(os.Args) > 1 {
 		checkUsage()
 	}
