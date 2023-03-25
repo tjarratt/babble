@@ -32,7 +32,7 @@ func (this Babbler) Babble() string {
 	pieces := []string{}
 	this.mu.Lock()
 	for i := 0; i < this.Count; i++ {
-		pieces = append(pieces, this.Words[rand.Int()%len(this.Words)])
+		pieces = append(pieces, this.Words[this.rand.Int()%len(this.Words)])
 	}
 	this.mu.Unlock()
 	return strings.Join(pieces, this.Separator)
